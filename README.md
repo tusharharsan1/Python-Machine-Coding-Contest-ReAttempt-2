@@ -40,5 +40,5 @@ This is a **plain Python project**, there is no database. Instead:
 1. Look at `place_order_request.py` and `place_order_response.py` to understand the request and response format.
 2. Look at `restaurant.py`, `menu_item.py`, `order.py`, and `order_item.py` to understand the data models.
 3. Look at `restaurant_repository.py` and `order_repository.py` to understand how data is stored.
-4. Implement the `place_order(request)` method inside `services/order_service.py`. The method skeleton with TODO steps is already provided in the file.
+4. Implement the `place_order(request)` method inside `services/order_service.py`. The method skeleton with the steps is already provided in the file.
 5. Use `PlaceOrderResponse.success(...)` to return a success response and `PlaceOrderResponse.failure(...)` for error cases.
